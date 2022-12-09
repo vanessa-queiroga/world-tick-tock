@@ -1,0 +1,28 @@
+body {
+  background-color: #f1a3fd;
+}
+
+.container {
+  background-color: rgb(211, 90, 183);
+  max-width: 550px;
+  border: solid 2px;
+  border-radius: 9px;
+  margin: 60px auto;
+  padding: 30px;
+  box-shadow: 5px 10px 23px -7px rgba(0, 0, 0, 0.48);
+  -webkit-box-shadow: 5px 10px 23px -7px rgba(0, 0, 0, 0.48);
+  -moz-box-shadow: 5px 10px 23px -7px rgba(0, 0, 0, 0.48);
+}
+.title {
+  text-align: center;
+}
+
+select {
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+}
