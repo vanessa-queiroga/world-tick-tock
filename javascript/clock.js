@@ -17,14 +17,6 @@ function loadTime() {
   tokyoDate.innerHTML = tokyoTimezone.format("dddd Mo [of] MMMM YYYY");
   tokyoTime.innerHTML = tokyoTimezone.format("HH:mm:ss");
 
-  let brazil = document.querySelector("#brazil");
-  let brazilDate = document.querySelector("#brazil .date");
-  let brazilTime = document.querySelector("#brazil .time");
-  let brazilTimezone = moment().tz("Brazil/East");
-
-  brazilDate.innerHTML = brazilTimezone.format("dddd Mo [of] MMMM YYYY");
-  brazilTime.innerHTML = brazilTimezone.format("HH:mm:ss");
-
   let australia = document.querySelector("#australia");
   let australiaDate = document.querySelector("#australia .date");
   let australiaTime = document.querySelector("#australia .time");
