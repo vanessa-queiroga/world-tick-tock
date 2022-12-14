@@ -48,6 +48,7 @@ function showTimezone(event) {
       <div class="date">${cityTime.format("MMMM	Do YYYY")}</div>
     </div>
     <div class="time">${cityTime.format("HH:mm:ss")} </div>
+    <a href="/">Back to all cities</a>
   </div>
   `;
 }
