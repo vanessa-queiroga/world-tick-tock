@@ -1,22 +1,28 @@
 body {
-  background-image: radial-gradient(#9c45ed 2px, transparent 2px);
-  background-size: 52px 52px;
-  background-color: #efd8ec;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/058/690/original/World_Clock_%281%29.png?1671047259);
+  background-color: black;
 
-  font-family: sans-serif;
+  background-size: cover;
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .container {
-  background-color: rgb(242, 117, 186);
-  max-width: 550px;
-  border: solid 2px;
-  border-radius: 15px;
-  border-color: rgb(238, 226, 237);
-  margin: 60px auto;
-  padding: 30px;
-  box-shadow: 5px 10px 23px -7px rgba(0, 0, 0, 0.48);
-  -webkit-box-shadow: 5px 10px 23px -7px rgba(0, 0, 0, 0.48);
-  -moz-box-shadow: 5px 10px 23px -7px rgba(0, 0, 0, 0.48);
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.61);
+  display: block;
+  margin: 100px auto;
+  padding: 20px;
+  max-width: 700px;
 }
 .title {
   text-align: center;
@@ -25,11 +31,11 @@ body {
 }
 .time {
   margin-top: 10px;
-  font-size: 35px;
+  font-size: 48px;
   font-weight: 600;
   vertical-align: middle;
   line-height: 48px;
-  color: rgb(243, 224, 249);
+  color: rgb(0, 221, 255);
 }
 
 select {
@@ -43,7 +49,7 @@ select {
 .city {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid rgb(238, 197, 211);
+  border-bottom: 1px solid rgb(255, 255, 255);
   padding: 10px;
 }
 
@@ -52,9 +58,8 @@ select {
 }
 h2 {
   font-size: 30px;
-  color: #f0d2f5;
+  color: #ffffff;
 }
 .date {
-  color: black;
-  opacity: 0.5;
+  color: rgb(202, 200, 200);
 }

@@ -36,6 +36,9 @@ function loadTime() {
 
 function showTimezone(event) {
   let timezoneMain = event.target.value;
+  if (timezoneMain === "current") {
+    timezoneMain = moment.tz.guess();
+  }
   let cityName = timezoneMain.replace("_", " ").split("/")[1];
   let cityTime = moment().tz(timezoneMain);
   let cityDropdown = document.querySelector("#cities");
