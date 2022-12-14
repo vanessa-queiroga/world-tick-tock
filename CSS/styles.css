@@ -26,8 +26,8 @@ body {
 }
 .title {
   text-align: center;
-  color: rgb(255, 255, 255);
-  font-size: 36px;
+  color: rgb(246, 95, 183);
+  font-size: 48px;
 }
 .time {
   margin-top: 10px;
@@ -62,4 +62,13 @@ h2 {
 }
 .date {
   color: rgb(202, 200, 200);
+}
+footer {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: rgb(246, 119, 223);
+}
+a {
+  color: rgb(0, 166, 255);
 }
